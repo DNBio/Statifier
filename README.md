@@ -24,10 +24,10 @@ It is currently used to export data from specific metrics on a weekly basis in a
 
 <h2>How to install</h2>
 
+<p>You will need an API key from Google if you need to connect to GA and/or a valid Piwic token.</p>
 <ol>
-    <li>Create a database and import database schema (sql/database.sql).</li>
+    <li>Create a database and import database schema (mysql/schema.sql).</li>
     <li>Create a user to access that database.</li>
-    <li>Copy/rename statifier.conf.default.php to statifier.conf.php.</li>
     <li>Edit statifier.conf.php to map your database credentials and piwic and/or Google analytics settings.</li>
     <li>Run ga.php and/or piwic.php in your terminal to populate the database.</li>
     <li>Run CSV.php in your terminal to format and export the data in a CSV text file.</li>
